@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D44038C22B30D28400080AF2 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44038C12B30D28400080AF2 /* DataStorage.swift */; };
+		D44038C42B30F76800080AF2 /* Its_Snowtime_MP3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D44038C32B30F76800080AF2 /* Its_Snowtime_MP3.mp3 */; };
+		D44038C62B30F76F00080AF2 /* collectible.wav in Resources */ = {isa = PBXBuildFile; fileRef = D44038C52B30F76F00080AF2 /* collectible.wav */; };
+		D44038C82B30F77700080AF2 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = D44038C72B30F77700080AF2 /* death.wav */; };
+		D44038CA2B30F77E00080AF2 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = D44038C92B30F77E00080AF2 /* jump.wav */; };
+		D44038DE2B31C33C00080AF2 /* ka1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D44038DC2B31C33B00080AF2 /* ka1.ttf */; };
+		D44038DF2B31C33C00080AF2 /* ARCADECLASSIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = D44038DD2B31C33B00080AF2 /* ARCADECLASSIC.TTF */; };
 		D4654EDC2B2A418A008F855F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654EDB2B2A418A008F855F /* AppDelegate.swift */; };
 		D4654EDE2B2A418A008F855F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4654EDD2B2A418A008F855F /* GameScene.sks */; };
 		D4654EE02B2A418A008F855F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4654EDF2B2A418A008F855F /* Actions.sks */; };
@@ -15,9 +22,21 @@
 		D4654EE72B2A418A008F855F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4654EE52B2A418A008F855F /* Main.storyboard */; };
 		D4654EE92B2A418B008F855F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4654EE82B2A418B008F855F /* Assets.xcassets */; };
 		D4654EEC2B2A418B008F855F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4654EEA2B2A418B008F855F /* LaunchScreen.storyboard */; };
+		D4654EF62B2A4227008F855F /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654EF52B2A4227008F855F /* MainMenu.swift */; };
+		D4654EF82B2A4244008F855F /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654EF72B2A4244008F855F /* GameOver.swift */; };
+		D4654EFA2B2A4285008F855F /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654EF92B2A4285008F855F /* CGFloat+Ext.swift */; };
+		D4654EFD2B2A42E0008F855F /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4654EFC2B2A42E0008F855F /* PhysicsCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D44038C12B30D28400080AF2 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		D44038C32B30F76800080AF2 /* Its_Snowtime_MP3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Its_Snowtime_MP3.mp3; sourceTree = "<group>"; };
+		D44038C52B30F76F00080AF2 /* collectible.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = collectible.wav; sourceTree = "<group>"; };
+		D44038C72B30F77700080AF2 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		D44038C92B30F77E00080AF2 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		D44038D82B319D5800080AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D44038DC2B31C33B00080AF2 /* ka1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ka1.ttf; sourceTree = "<group>"; };
+		D44038DD2B31C33B00080AF2 /* ARCADECLASSIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADECLASSIC.TTF; sourceTree = "<group>"; };
 		D4654ED82B2A418A008F855F /* EndlessRunnerSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessRunnerSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4654EDB2B2A418A008F855F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4654EDD2B2A418A008F855F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,6 +46,10 @@
 		D4654EE62B2A418A008F855F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4654EE82B2A418B008F855F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4654EEB2B2A418B008F855F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4654EF52B2A4227008F855F /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		D4654EF72B2A4244008F855F /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		D4654EF92B2A4285008F855F /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		D4654EFC2B2A42E0008F855F /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D44038DB2B31C33B00080AF2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D44038DC2B31C33B00080AF2 /* ka1.ttf */,
+				D44038DD2B31C33B00080AF2 /* ARCADECLASSIC.TTF */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		D4654ECF2B2A418A008F855F = {
 			isa = PBXGroup;
 			children = (
@@ -59,16 +91,59 @@
 		D4654EDA2B2A418A008F855F /* EndlessRunnerSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				D44038D82B319D5800080AF2 /* Info.plist */,
+				D4654EE32B2A418A008F855F /* GameViewController.swift */,
+				D4654EF32B2A4201008F855F /* SystemFiles */,
+				D4654EFB2B2A429A008F855F /* Utils */,
+				D4654EF22B2A41EE008F855F /* Scene */,
+				D44038DB2B31C33B00080AF2 /* Font */,
+				D4654EF42B2A420E008F855F /* Resources */,
+			);
+			path = EndlessRunnerSpriteKit;
+			sourceTree = "<group>";
+		};
+		D4654EF22B2A41EE008F855F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D4654EE12B2A418A008F855F /* GameScene.swift */,
+				D4654EF52B2A4227008F855F /* MainMenu.swift */,
+				D4654EF72B2A4244008F855F /* GameOver.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D4654EF32B2A4201008F855F /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
 				D4654EDB2B2A418A008F855F /* AppDelegate.swift */,
 				D4654EDD2B2A418A008F855F /* GameScene.sks */,
 				D4654EDF2B2A418A008F855F /* Actions.sks */,
-				D4654EE12B2A418A008F855F /* GameScene.swift */,
-				D4654EE32B2A418A008F855F /* GameViewController.swift */,
-				D4654EE52B2A418A008F855F /* Main.storyboard */,
-				D4654EE82B2A418B008F855F /* Assets.xcassets */,
-				D4654EEA2B2A418B008F855F /* LaunchScreen.storyboard */,
 			);
-			path = EndlessRunnerSpriteKit;
+			path = SystemFiles;
+			sourceTree = "<group>";
+		};
+		D4654EF42B2A420E008F855F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4654EE82B2A418B008F855F /* Assets.xcassets */,
+				D4654EE52B2A418A008F855F /* Main.storyboard */,
+				D4654EEA2B2A418B008F855F /* LaunchScreen.storyboard */,
+				D44038C32B30F76800080AF2 /* Its_Snowtime_MP3.mp3 */,
+				D44038C52B30F76F00080AF2 /* collectible.wav */,
+				D44038C92B30F77E00080AF2 /* jump.wav */,
+				D44038C72B30F77700080AF2 /* death.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4654EFB2B2A429A008F855F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D4654EF92B2A4285008F855F /* CGFloat+Ext.swift */,
+				D4654EFC2B2A42E0008F855F /* PhysicsCategory.swift */,
+				D44038C12B30D28400080AF2 /* DataStorage.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +206,14 @@
 			files = (
 				D4654EE72B2A418A008F855F /* Main.storyboard in Resources */,
 				D4654EDE2B2A418A008F855F /* GameScene.sks in Resources */,
+				D44038C42B30F76800080AF2 /* Its_Snowtime_MP3.mp3 in Resources */,
+				D44038C82B30F77700080AF2 /* death.wav in Resources */,
 				D4654EE92B2A418B008F855F /* Assets.xcassets in Resources */,
+				D44038DF2B31C33C00080AF2 /* ARCADECLASSIC.TTF in Resources */,
 				D4654EEC2B2A418B008F855F /* LaunchScreen.storyboard in Resources */,
+				D44038CA2B30F77E00080AF2 /* jump.wav in Resources */,
+				D44038C62B30F76F00080AF2 /* collectible.wav in Resources */,
+				D44038DE2B31C33C00080AF2 /* ka1.ttf in Resources */,
 				D4654EE02B2A418A008F855F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4654EFA2B2A4285008F855F /* CGFloat+Ext.swift in Sources */,
 				D4654EE22B2A418A008F855F /* GameScene.swift in Sources */,
 				D4654EE42B2A418A008F855F /* GameViewController.swift in Sources */,
+				D44038C22B30D28400080AF2 /* DataStorage.swift in Sources */,
 				D4654EDC2B2A418A008F855F /* AppDelegate.swift in Sources */,
+				D4654EF82B2A4244008F855F /* GameOver.swift in Sources */,
+				D4654EF62B2A4227008F855F /* MainMenu.swift in Sources */,
+				D4654EFD2B2A42E0008F855F /* PhysicsCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +386,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6STK5CF75S;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EndlessRunnerSpriteKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,12 +414,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6STK5CF75S;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EndlessRunnerSpriteKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
